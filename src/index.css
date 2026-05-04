@@ -52,6 +52,9 @@
 
 body {
   margin: 0;
+    font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
 }
 
 #root {
@@ -108,4 +111,8 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+
+section {
+  border-bottom: 1px solid #1e293b;
 }
