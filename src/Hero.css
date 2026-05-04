@@ -1,0 +1,19 @@
+.hero {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 120px 20px;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin-bottom: 16px;
+  color: #E2E8F0;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  color: #94A3B8;
+}

@@ -1,10 +1,12 @@
+import styles from "./Hero.css";
+
 export default function Hero() {
   return (
-    <section style={{ padding: "100px 20px", textAlign: "center" }}>
-      <h1 style={{ fontSize: "48px", marginBottom: "20px" }}>
+    <section className="hero">
+      <h1 className="hero-title">
         Umarah Gul
         </h1>
-      <p  style={{ fontSize: "20px", opacity: 0.8 }}>
+      <p className="hero-subtitle">
         React Developer | Building Modern Web Apps</p>
     </section>
   );
