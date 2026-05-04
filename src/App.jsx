@@ -1,9 +1,15 @@
 import Hero from "./Hero";
+import About from "./About";
+import Projects from "./Projects";
+import Contact from "./Contact";
 
 function App() {
   return (
     <div>
-      
+         <Hero />
+      <About />
+      <Projects />
+      <Contact />
 
       <section style={{ padding: "40px" }}>
         <h2>About Me</h2>
