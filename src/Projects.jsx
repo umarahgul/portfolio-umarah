@@ -1,8 +1,11 @@
+import './Projects.css'
 export default function Projects() {
   return (
-    <section>
-      <h2>Projects</h2>
-      <p>My work will go here.</p>
+    <section className="project"> 
+       <div className="project-container">
+      <h2 className='project-title'>Projects</h2>
+      <p className='project-text'>My work will go here.</p>
+      </div>
     </section>
   );
 }
