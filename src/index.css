@@ -1,3 +1,5 @@
+@import url('https://googleapis.com');
+
 /* RESET */
 * {
   margin: 0;
@@ -31,5 +33,20 @@ section {
   color: #64748b;
   font-size: 0.9rem;
   margin: 0;
+}
+
+/* Add this to the top of your CSS */
+
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.story-text {
+  font-weight: 100; /* This gives the "pen-thin" look */
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #e2e8f0;
+  letter-spacing: 0.5px;
 }
 

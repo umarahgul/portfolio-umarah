@@ -11,6 +11,25 @@
 
 /* container */
 .about-container {
+
+  max-width: 850px;
+  margin: 0 auto; /* Centers the tab */
+  padding: 50px;
+  border-radius: 24px;
+  
+  /* Matches the Project Glass */
+  background: rgba(255, 255, 255, 0.03); 
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1); 
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  
+  /* Space below the tab to separate from next section */
+  margin-bottom: 100px; 
+
+
+
+/*
   max-width: 850px;
   width: 100%;
   text-align: center;
@@ -19,12 +38,12 @@
   margin: 0px 0px;
   padding: 100px;
 
-  /* glass effect to match modern portfolio style */
+  /* glass effect to match modern portfolio style 
   background: rgba(49, 54, 55, 0.771);
   backdrop-filter: blur(10px);
 
   border: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);*/
 }
 
 /* title */

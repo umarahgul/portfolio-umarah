@@ -3,7 +3,8 @@ import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
-import "./index.css"
+import "./index.css";
+import "./App.css";
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -16,13 +17,19 @@ function Footer() {
 
 function App() {
   return (
-    <div>
+   <div className="app-wrapper">
+      {/* Background Ambient Orbs */}
+      <div className="blob-1"></div>
+      <div className="blob-2"></div>
+      <div className="content-layer">
+        
          <Hero />
         
       <About />
       <Projects />
       <Contact />
       <Footer/>
+    </div>
     </div>
   );
 }
